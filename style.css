@@ -1,0 +1,30 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+th,
+td {
+  padding: 0px;
+  border-bottom: 2px solid lightgray;
+}
+table {
+  border: 4px solid blue;
+  border-collapse: collapse;
+}
+.solidBlue {
+  color: blue;
+  font-weight: bold;
+}
+.alignClass {
+  text-align: right;
+}
+.caret {
+        width: 0;
+        height: 0;
+        display: inline-block;
+        border: 5px solid transparent;
+    }
+    .caret.down{
+        border-top-color: blue;
+    }
